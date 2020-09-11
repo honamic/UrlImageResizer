@@ -23,3 +23,5 @@ jobs:
       run: dotnet build ./src/UrlImageResizer/Honamic.UrlImageResizer.csproj --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: Deploy NuGet Package
+      run: dotnet nuget push ./src/UrlImageResizer/bin/Release/*.nupkg -k ${{ secrets.NUGET_API_KEY }} -s https://api.nuget.org/v3/index.json
