@@ -5,7 +5,11 @@
     <ApplicationIcon>UrlImageResizer.ico</ApplicationIcon>
     <OutputType>Library</OutputType>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>0.1.12</Version>
+    <Version>0.1.13</Version>
+    <PackageProjectUrl>https://github.com/honamic/UrlImageResizer</PackageProjectUrl>
+    <PackageTags>Image Resizer;.NET Core</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+
   </PropertyGroup>
   <ItemGroup>
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
