@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Description>ASP.NET Core middleware for url image resize</Description>
+    <ApplicationIcon>UrlImageResizer.ico</ApplicationIcon>
+    <OutputType>Library</OutputType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1.12</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup> 
+    <PackageReference Include="SkiaSharp" Version="1.68.0" /> 
+  </ItemGroup>
+</Project>
